@@ -1,0 +1,18 @@
+{
+    "name": "grpc-todo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "pb:client": "node src/client/",
+        "pb:server": "node src/server/"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@grpc/grpc-js": "^1.8.0",
+        "@grpc/proto-loader": "^0.7.4",
+        "uuid": "^9.0.0"
+    }
+}
